@@ -3,7 +3,7 @@ on:
   issues:
     type:  [opened]
 jobs:
-  comment-with-actions:
+  comment-with-action:
     runs-on:  ubuntu-latest
     steps:
       -  name:  "dump github context"
